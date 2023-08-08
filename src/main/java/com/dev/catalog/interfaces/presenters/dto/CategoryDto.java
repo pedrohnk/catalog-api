@@ -1,4 +1,4 @@
-package com.dev.catalog.interfaces.web.dto;
+package com.dev.catalog.interfaces.presenters.dto;
 
 import com.dev.catalog.domain.Category;
 

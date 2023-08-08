@@ -1,4 +1,4 @@
-package com.dev.catalog.interfaces.web.exception;
+package com.dev.catalog.interfaces.presenters.exception;
 
 import java.io.Serializable;
 import java.time.Instant;

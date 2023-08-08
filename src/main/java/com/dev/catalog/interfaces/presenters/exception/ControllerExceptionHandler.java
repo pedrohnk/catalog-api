@@ -1,4 +1,4 @@
-package com.dev.catalog.interfaces.web.exception;
+package com.dev.catalog.interfaces.presenters.exception;
 
 import com.dev.catalog.domain.exceptions.CategoryNotFoundException;
 import jakarta.servlet.http.HttpServletRequest;
