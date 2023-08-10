@@ -14,7 +14,7 @@ public class UpdateCategoryService {
     @Autowired
     private CategoryRepository categoryRepository;
 
-    @Transactional()
+    @Transactional
     public CategoryDto perform(Long id, CategoryDto dto) throws EntityNotFoundException {
         try{
             Category category = categoryRepository.getReferenceById(id);

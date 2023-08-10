@@ -12,7 +12,7 @@ public class CreateCategoryService {
     @Autowired
     private CategoryRepository categoryRepository;
 
-    @Transactional()
+    @Transactional
     public CategoryDto perform(CategoryDto dto) {
         Category entity = new Category();
         entity.setName(dto.getName());
