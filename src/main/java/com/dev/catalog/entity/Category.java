@@ -1,4 +1,4 @@
-package com.dev.catalog.domain;
+package com.dev.catalog.entity;
 
 import jakarta.persistence.*;
 

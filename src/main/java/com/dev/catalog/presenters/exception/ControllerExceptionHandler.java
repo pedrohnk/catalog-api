@@ -1,6 +1,6 @@
-package com.dev.catalog.interfaces.presenters.exception;
+package com.dev.catalog.presenters.exception;
 
-import com.dev.catalog.domain.exceptions.CategoryNotFoundException;
+import com.dev.catalog.entity.exceptions.ResourceNotFoundException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,8 +11,8 @@ import java.time.Instant;
 
 @ControllerAdvice
 public class ControllerExceptionHandler {
-    @ExceptionHandler(CategoryNotFoundException.class)
-    public ResponseEntity<StandardError> categoryNotFound(CategoryNotFoundException e, HttpServletRequest request){
+    @ExceptionHandler(ResourceNotFoundException.class)
+    public ResponseEntity<StandardError> categoryNotFound(ResourceNotFoundException e, HttpServletRequest request){
         StandardError err = new StandardError();
         err.setTimestamp(Instant.now());
         err.setStatus(HttpStatus.NOT_FOUND.value());

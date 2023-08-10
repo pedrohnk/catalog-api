@@ -1,6 +1,6 @@
-package com.dev.catalog.interfaces.presenters.dto;
+package com.dev.catalog.presenters.dto;
 
-import com.dev.catalog.domain.Category;
+import com.dev.catalog.entity.Category;
 
 import java.io.Serializable;
 

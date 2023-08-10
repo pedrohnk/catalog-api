@@ -1,7 +1,7 @@
 package com.dev.catalog.service;
 
-import com.dev.catalog.domain.Category;
-import com.dev.catalog.interfaces.presenters.dto.CategoryDto;
+import com.dev.catalog.entity.Category;
+import com.dev.catalog.presenters.dto.CategoryDto;
 import com.dev.catalog.repository.CategoryRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;

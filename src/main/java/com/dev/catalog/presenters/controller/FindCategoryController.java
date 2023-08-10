@@ -1,6 +1,6 @@
-package com.dev.catalog.interfaces.presenters.controller;
+package com.dev.catalog.presenters.controller;
 
-import com.dev.catalog.interfaces.presenters.dto.CategoryDto;
+import com.dev.catalog.presenters.dto.CategoryDto;
 
 import com.dev.catalog.service.FindCategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
